@@ -14,7 +14,7 @@ class LuckyController extends AbstractController
     public function index()
     {
         return $this->render('lucky/home.html.twig', [
-            'controller_name' => 'Symfony 4 basic',
+            'controller_name' => 'Symfony 4 - Simple CRUD',
         ]);
     }
     
